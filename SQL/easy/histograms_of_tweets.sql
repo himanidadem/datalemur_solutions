@@ -4,5 +4,5 @@ where EXTRACT(YEAR FROM tweet_date)='2022'
 GROUP BY user_id)
 
 select tweet_bucket, count(*) as users_num
-from counts
+from count
 group by tweet_bucket
